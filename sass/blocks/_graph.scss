@@ -1,0 +1,28 @@
+.graph {
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: rgb(19, 8, 8);
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+    td,
+    th {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .color1 {
+        color: #1AFF7C;
+    }
+    .color2 {
+        color: #FF1A1A;
+    }
+}

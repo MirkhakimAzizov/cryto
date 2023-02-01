@@ -1,0 +1,52 @@
+.drop {
+    padding: 100px 0;
+    background-color: rgb(19, 8, 8);
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    &__text {
+        padding: 15px 0 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    input {
+        background-color: rgb(19, 8, 8);
+        width: 578px;
+        padding: 20px 28px;
+        border: none;
+        border: 2px solid #FFFFFF;
+        border-radius: 37px;
+        color: #FFFFFF;
+        &::placeholder {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+    }
+    .form-btn {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        padding: 19px 26px;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #EB5757;
+        border-radius: 31px;
+    }
+}

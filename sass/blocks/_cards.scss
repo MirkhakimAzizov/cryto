@@ -1,0 +1,49 @@
+.cards {
+    padding: 100px 0;
+    &__title {
+        padding-bottom: 45px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 32px;
+        color: #000000;
+    }
+    &__box {
+        width: 368px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(203, 203, 203, 0.25);
+        border-radius: 10px;
+        &__title {
+            padding: 24px 20px 0;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+        &__text {
+            padding: 0 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+            color: #4F4F4F;
+        }
+        &__by {
+            padding: 0 20px 25px;
+            display: inline-block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: 0.03em;
+            color: #616161;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+    }
+}

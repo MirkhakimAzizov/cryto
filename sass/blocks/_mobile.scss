@@ -1,0 +1,28 @@
+.mobile {
+    margin: 0 auto;
+    padding: 120px 0 100px;
+    background-color: rgb(19, 8, 8);
+    &__box {
+        width: 500px;
+        padding: 70px 0;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+    &__text {
+        padding: 14px 0 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        display: flex;
+        flex-direction: row;
+    }
+}
